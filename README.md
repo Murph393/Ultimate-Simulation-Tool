@@ -7,7 +7,7 @@
 利用CST仿真的部分结果数据(离散)，去预测所有结果(连续)，free your mind~  
 效果如下图：
 
-![avatar](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1529500444&di=56373d9334a5b5c1ad1c3077daf3cb0d&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F012b275930ff3ba8012193a349e497.gif)
+![image](https://i.imgur.com/w2gfgQ3.png)
 
 ## 如何使用？(How to play?)
 
