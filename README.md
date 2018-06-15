@@ -7,16 +7,16 @@
 利用CST仿真的部分结果数据(离散)，去预测所有结果(连续)，free your mind~  
 效果如下图：
 
-![image](https://github.com/Murph393/Ultimate-Simulation-Tool/blob/master/Notebook/ost.gif?raw=true)
+![image](https://github.com/Murph393/Ultimate-Simulation-Tool/blob/master/Notebook/ust.gif?raw=true)
 
 ## 如何使用？(How to play?)
 
-第一次使用：下载`OST.py; install.bat`两个文件即可  
+第一次使用：下载`UST.py; install.bat`两个文件即可  
 (此程序默认你已经安装3.x版本python，且可以使用pip命令，如无法识别pip则需要配置环境变量)  
 1.双击install.bat 安装需要的python相关Support packages  
 (或者在命令行手动输入以下命令：“pip install -U numpy scipy pandas matplotlib progressbar2 scikit-learn”)  
-2.双击运行OST.py即可，如果打开了代码编辑界面则-->右键选择打开方式-->python.exe  
-(也可使用任意其他运行py脚本的方式使用OST.py)  
+2.双击运行UST.py即可，如果打开了代码编辑界面则-->右键选择打开方式-->python.exe  
+(也可使用任意其他运行py脚本的方式使用UST.py)  
 3.准备了一个测试数据集，可下载1.txt和db.parmap文件测试。
 
 ## 详细说明(TL;DR)
@@ -25,7 +25,7 @@
 
 * STEP 1  
  <稍微详细一点的介绍>  
-一个未知的CST模型，想知道参数对结果的影响，用了这个脚本，不需要手动调整参数，能做的只需要挂机就可以了。
+一个未知的CST模型，想知道参数对结果曲线的影响，用了这个脚本，不需要手动调整参数或者思考参数对结果的影响，只要挂机等CST仿真就可以了。
 
 * STEP 2  
  <生成随机参数表>  
@@ -41,7 +41,7 @@
  好了，看到CST停下来了(或者你不想等了/参数表设太大了，手动把CST仿真过程停止了)，在导航树中找到你想看的post processing结果，根据导引Export导出结果名为1.txt(别的名字识别不了)就ok了。  
  在CST模型的Result文件夹下有一个db.parmap文件，最后保证1.txt,db.parmap和这个脚本在同一个文件夹下，最后一步之前的所有就准备好了~ 
 
- >总结是很有必要的：`OST.py` ，`1.txt` 和`db.paramap` 三个文件必须处于同一目录下，推荐把OST.py放到仿真结果的Result文件夹下。
+ >总结是很有必要的：`UST.py` ，`1.txt` 和`db.paramap` 三个文件必须处于同一目录下，推荐把UST.py放到仿真结果的Result文件夹下。
 
 * STEP 4  
  <训练>  
