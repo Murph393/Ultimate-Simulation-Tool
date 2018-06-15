@@ -64,7 +64,7 @@
 
 * DNN(Deep Neural Network)，深度神经网络  
 
-    这个功能还没有做好~
+    不存在的~
 
   MSE(Mean Square Error)，用于参考算法的性能，越小说明结果越好。  
 
